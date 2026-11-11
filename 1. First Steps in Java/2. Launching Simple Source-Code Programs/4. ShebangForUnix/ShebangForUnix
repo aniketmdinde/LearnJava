@@ -1,0 +1,14 @@
+#!/path/to/your/bin/java --source 27
+
+public class ShebangForUnix {
+    public static void main(String[] args) {
+       IO.println("Hello " + args[0]);
+    }
+}
+
+/*
+    In UNIX, 
+    The file cannot have .java as its file extension. Run:
+    chmod +x ShebangForUnix
+    ./ShebangForUnix Maria
+*/
